@@ -2574,6 +2574,15 @@ input, select, textarea {
 
 /* Header */
 
+
+	#header .icons {
+		margin: 1em 0 0 0;
+	}
+
+		#header .icons a {
+			color: rgba(255, 255, 255, 0.4);
+		}
+
 	#header {
 		display: -moz-flex;
 		display: -webkit-flex;
