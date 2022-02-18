@@ -111,7 +111,7 @@ input, select, textarea {
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		border-bottom: dotted 1px;
-		color: #49bf9d;
+		color: #283e4a ;
 		text-decoration: none;
 	}
 
@@ -1841,7 +1841,7 @@ input, select, textarea {
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #49bf9d;
+			border-color: #283e4a ;
 		}
 
 	select {
@@ -1946,7 +1946,7 @@ input, select, textarea {
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #49bf9d;
+			border-color: #283e4a ;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -2477,8 +2477,8 @@ input, select, textarea {
 		input[type="reset"].primary,
 		input[type="button"].primary,
 		.button.primary {
-			background-color: #49bf9d;
-			border-color: #49bf9d;
+			background-color: #4957bf;
+			border-color: #283e4a ;
 			color: #ffffff !important;
 		}
 
@@ -2540,7 +2540,7 @@ input, select, textarea {
 	}
 
 		#header .icons a {
-			color: rgba(255, 255, 255, 0.4);
+			color: rgba(255, 255, 255, 0.8);
 		}
 
 	#header {
@@ -2562,10 +2562,10 @@ input, select, textarea {
 		justify-content: space-between;
 		background-color: #1f1815;
 		background-attachment: scroll,								scroll;
-		background-image: url("images/overlay.png"), url("../../images/bg.jpg");
+		background-image: linear-gradient(to top, rgba(43, 44, 45, 0.5),rgb(49, 170, 245,0.0)), url("../../images/bg.jpg");
 		background-position: top left,							top left;
-		background-repeat: repeat,								no-repeat;
-		background-size: auto,								150%;
+		background-repeat: repeat,								repeat;
+		background-size: auto,								210%;
 		color: rgba(255, 255, 255, 0.5);
 		height: 100%;
 		left: 0;
@@ -2609,7 +2609,7 @@ input, select, textarea {
 
 		#header .image.avatar {
 			margin: 0 0 1em 0;
-			width: 6.25em;
+			width: 8.25em;
 		}
 
 /* Footer */
@@ -2984,13 +2984,13 @@ input, select, textarea {
 
 		/* Footer */
 
-			#footer .copyright li {
-				border-left-width: 0;
-				display: block;
-				line-height: 2.25em;
-				margin-left: 0;
-				padding-left: 0;
-			}
+					#footer .copyright li {
+						border-left-width: 1px;
+						display: inline-block;
+						line-height: 1em;
+						margin-left: 0.75em;
+						padding-left: 0.75em;
+					}
 
 		/* Main */
 
@@ -3047,9 +3047,9 @@ input, select, textarea {
 			#footer {
 				background-attachment: scroll;
 				background-color: #1f1815;
-				background-image: url("images/overlay.png"), url("../../images/bg.jpg");
+				background-image: linear-gradient(to top, rgba(43, 44, 45, 0.5),rgb(49, 170, 245,0.0)), url("../../images/bg.jpg");
 				background-position: top left,						bottom center;
-				background-repeat: repeat,							no-repeat;
+				background-repeat: repeat,							repeat;
 				background-size: auto,							cover;
 				bottom: auto;
 				left: auto;
@@ -3186,5 +3186,58 @@ input, select, textarea {
 				margin-left: 0;
 				padding-left: 0;
 			}
+
+	}
+
+/* Contact */
+
+ul.contact {
+	list-style: none;
+	padding: 0;
+}
+
+	ul.contact li {
+		text-decoration: none;
+		margin: 1.5em 0 0 0;
+		padding: 0 0 0 3.25em;
+		position: relative;
+	}
+
+		ul.contact li:before {
+			-moz-osx-font-smoothing: grayscale;
+			-webkit-font-smoothing: antialiased;
+			display: inline-block;
+			font-style: normal;
+			font-variant: normal;
+			text-rendering: auto;
+			line-height: 1;
+			text-transform: none !important;
+			font-family: 'Font Awesome 5 Free';
+			font-weight: 400;
+		}
+
+		ul.contact li:before {
+			border-radius: 100%;
+			border: solid 1px rgba(131, 131, 131, 0.6);
+			display: inline-block;
+			font-size: 1em;
+			height: 2.5em;
+			left: 0;
+			line-height: 2.35em;
+			position: absolute;
+			text-align: center;
+			top: 0;
+			width: 2.5em;
+		}
+
+		ul.contact li:first-child {
+			margin-top: 0;
+		}
+
+	@media screen and (max-width: 736px) {
+
+		ul.contact li {
+			margin: 1.5em 0 0 0;
+		}
 
 	}
