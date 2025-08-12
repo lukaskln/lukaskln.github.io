@@ -223,6 +223,28 @@ html, body {
 	max-width: 100% !important;
 }
 
+/* Subtle About page improvements */
+#about {
+	line-height: 1.6 !important;
+}
+
+#about h4 {
+	text-align: justify !important;
+}
+
+/* Better mobile readability */
+@media screen and (max-width: 736px) {
+	#about {
+		line-height: 1.5 !important;
+	}
+	
+	#about h4 {
+		text-align: left !important;
+	}
+}
+
+
+
 /* Navigation styles for multi-page setup */
 .nav-link {
 	text-decoration: none;
