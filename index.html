@@ -8,6 +8,7 @@
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<link rel="stylesheet" href="/assets/css/main.css" />
+	<link rel="stylesheet" href="/assets/css/custom.css" />
 	<link rel="icon" type="image/vnd.microsoft.icon" href="images/favicon.ico">
 </head>
 
@@ -30,14 +31,28 @@
 								class="label">Google Scholar</span></a></li>
 			</ul>
 		</div>
-
 	</header>
 
 	<!-- Main -->
 	<div id="main">
+		
+		<!-- Navigation -->
+		<nav id="nav">
+			<!-- Hamburger Menu Button (Hidden by default) -->
+			<button id="menu-toggle">
+				<i class="fas fa-bars"></i>
+			</button>
+			
+			<!-- Navigation Menu -->
+			<ul id="nav-menu">
+				<li><a href="index.html" class="nav-link">About</a></li>
+				<li><a href="publications.html" class="nav-link">Publications</a></li>
+				<li><a href="services.html" class="nav-link">Academic Services</a></li>
+			</ul>
+		</nav>
 
-		<!-- One -->
-		<section id="one">
+		<!-- About Content -->
+		<section id="about">
 			<header class="major">
 				<h2>About me</h2>
 			</header>
@@ -51,10 +66,9 @@
 				Previously, I completed my Ph.D. in Computer Science at <strong>ETH Zürich</strong> and the German Cancer Research Center (<strong>DKFZ</strong>), supervised by <a href="https://inf.ethz.ch/people/person-detail.buhmann.html">Joachim Buhmann</a> and <a href="https://pfjaeger.github.io">Paul Jäger</a>.
 
 			</h4>
-		</section>
-
-		<!-- four -->
-		<section id="four">
+			
+			<hr style="margin: 3em 0; border: none; border-top: 2px solid #efefef;">
+			
 			<h2>🎓 Academic Education</h2>
 			<ul>
 				<li><strong>[PostDoc]</strong> Joint PostDoc in the <a href="https://aimm.epfl.ch">AIMM Group</a> at EPFL and the <a href="https://www.usz.ch/en/department/medical-oncology-and-hematology/">Department of Oncology</a> at the University Hospital Zürich</li>
@@ -69,163 +83,6 @@
 			<a href="./images/Curriculum Vitae Lukas Klein.pdf" class="button small"><i
 					class="icon fa-solid fa-arrow-down"></i> Download full CV</a>
 		</section>
-		<!-- Two -->
-		<section id="two">
-			<h2>📑 Publications</h2>
-
-			<div class="table-wrapper">
-				<table>
-					<tbody>
-						<tr>
-							<td>
-								<h3> <a href="https://www.medrxiv.org/content/10.1101/2024.10.23.24315937v1">Explainable AI-based analysis of human pancreas sections detects traits of type 2 diabetes</a></h4>
-								<p>
-									<strong>Lukas Klein</strong>, Sebastian Ziegler, Yanni Morgenroth, Eyke Schoeniger, Michele Solimena, Felicia Gerst, Robert Wagner, Fabian Isensee, Klaus Maier-Hein, Paul F. Jaeger
-								<br>
-								<strong><i>Under review at Nature Metabolism</i></strong>
-								</p>
-							</td>
-						</tr>
-						<tr>
-							<td>
-								<h3> <a href="https://arxiv.org/abs/2409.16756">Navigating the Maze of Explainable AI: A Systematic Approach to Evaluating Methods and Metrics</a></h4>
-								<p>
-									<strong>Lukas Klein</strong>, Carsten Lueth, Udo Schlegel, Till Bungert, Mennatallah El-Assady, Paul F.Jaeger
-								<br>
-								<strong><i>NeurIPS 2024</i></strong>
-								</p>
-							</td>
-						</tr>
-						<tr>
-							<td>
-								<h3> <a href="https://arxiv.org/abs/2406.02534">Enhancing predictive imaging biomarker discovery through treatment effect analysis</a></h4>
-								<p>
-									Shuhan Xiao, <strong> Lukas Klein</strong>, Paul F. Jaeger, Jens Petersen, Klaus Maier-Hein
-								<br>
-								<strong><i>WCAV 2024</i></strong>
-								</p>
-							</td>
-						</tr>
-						<tr>
-							<td>
-								<h3> <a href="">Why context matters in VQA and Reasoning: Semantic interventions for VLM input modalities</a></h4>
-								<p>
-									Kenza Amara*, <strong>Lukas Klein*</strong>, Carsten Lüth, Paul Jäger, Hendrik Strobelt, Mennatallah El-Assady
-								<br>
-								<strong><i>Under review</i></strong>
-								</p>
-							</td>
-						</tr>
-						<tr>
-							<td>
-								<h3> <a href="https://openreview.net/pdf?id=3kMucCYhYN">Interactive Semantic Interventions for VLMs: A Human-in-the-Loop Investigation of VLM Failure</a></h4>
-								<p>
-									<strong> Lukas Klein*</strong>, Kenza Amara*, Carsten T. Lüth*, Antonio Foncubierta-Rodríguez, Hendrik Strobelt, Mennatallah El-Assady, Paul F. Jaeger
-								<br>
-								<strong><i>NeurIPS 2024 Safe Generative AI Workshop</i></strong>
-								</p>
-							</td>
-						</tr>
-						<tr>
-							<td>
-								<h3> <a href="https://www.medrxiv.org/content/10.1101/2024.10.23.24315937v1">Explainable AI-based analysis of human pancreas sections detects traits of type 2 diabetes</a></h4>
-								<p>
-									<strong>Lukas Klein</strong>, Sebastian Ziegler, Yanni Morgenroth, Eyke Schoeniger, Michele Solimena, Felicia Gerst, Robert Wagner, Fabian Isensee, Klaus Maier-Hein, Paul F. Jaeger
-								<br>
-								<strong><i>NeurIPS 2024 IAI Workshop</i></strong>
-								</p>
-							</td>
-						</tr>
-						<tr>
-							<td>
-								<h3> <a href="https://onlinelibrary.wiley.com/doi/full/10.1002/adma.202307160">Discovering Process Dynamic for Scalable Perovskite Solar Cell Manufacturing with Explainable AI</a></h4>
-								<p>
-									<strong>Lukas Klein</strong>, Sebastian Ziegler, Felix Laufer, Charlotte Debus, Markus Götz, Klaus Maier-Hein, Ulrich
-									W. Paetzold, Fabian Isensee, Paul F. Jaeger
-								<br>
-								<strong><i>Advanced Materials (IF: 30). This work has been covered i.a. by <a href="https://www.independent.co.uk/tech/solar-panel-perovskite-ai-artificial-intelligence-b2453085.html">The Independent</a>.</i></strong>
-								</p>
-							</td>
-						</tr>
-						<tr>
-							<td>
-								<h3> <a href="https://onlinelibrary.wiley.com/doi/full/10.1002/adma.202307160">Understanding Solar Cell Manufacturing with Explainable AI</a></h4>
-								<p>
-									<strong>Lukas Klein</strong>, Sebastian Ziegler, Felix Laufer, Charlotte Debus, Markus Götz, Klaus Maier-Hein, Ulrich
-									W. Paetzold, Fabian Isensee, Paul F. Jaeger
-								<br>
-								<strong><i>NeurIPS 2023 XAIA Workshop (Oral, Top 4 Paper)</i></strong>
-								</p>
-							</td>
-						</tr>
-						<tr>
-							<td>
-								<h3> <a href="#">Semi-supervised automated Gleason Grading on WSI</a></h4>
-								<p>
-									Maximilian Fischer, Lars Krämer, Sebastian Ziegler, <strong>Lukas Klein</strong>, Paul F. Jaeger, Marco Molden, Peter Neher, Fabian Isensee, Klaus Maier-Hein
-								<br>
-								<strong><i>ECDP 2024 (Oral)</i></strong>
-								</p>
-							</td>
-						</tr>
-						<tr>
-							<td>
-								<h3> <a href="https://papers.nips.cc/paper_files/paper/2023/file/1ed4723f12853cbd02aecb8160f5e0c9-Paper-Conference.pdf">Navigating the Pitfalls of Active Learning Evaluation: A Systematic Framework for Meaningful Performance Assessment</a></h4>
-								<p>
-									Carsten T. Lüth, Till J. Bungert, <strong>Lukas Klein</strong>, Paul F. Jaeger
-								<br>
-								<strong><i>NeurIPS 2023</i></strong>
-								</p>
-							</td>
-						</tr>
-						<tr>
-							<td>
-								<h3> <a href="https://arxiv.org/abs/2211.15259">A Call to Reflect on Evaluation Practices for Failure Detection in Image Classification</a></h4>
-								<p>
-									Paul F. Jaeger, Carsten T. Lueth, <strong>Lukas Klein</strong>, Till J. Bungert
-								<br>
-								<strong><i>ICLR 2023 (Oral, Top 1% Paper)</i></strong>
-								</p>
-							</td>
-						</tr>
-						<tr>
-							<td>
-								<h3> <a href="https://arxiv.org/abs/2207.04969">From Correlation to Causation: Formalizing Interpretable Machine Learning as a Statistical Process</a></h4>
-								<p>
-									<strong>Lukas Klein</strong>, Mennatallah El-Assady, Paul F Jaeger
-								<br>
-								<strong><i>IJCAI 2022 Workshop on XAI</i></strong>
-								</p>
-							</td>
-						</tr>
-						<tr>
-							<td>
-								<h3> <a href="https://proceedings.mlr.press/v172/klein22a/klein22a.pdf">Improving Explainability of Disentangled Representations using Multipath-Attribution Mappings</a></h4>
-								<p>
-									<strong>Lukas Klein</strong>, João B. S. Carvalho, Mennatallah El-Assady, Paolo Penna, Joachim M. Buhmann, Paul F Jaeger
-								<br>
-								<strong><i>MIDL 2022</i></strong>
-								</p>
-							</td>
-						</tr>
-					</tbody>
-				</table>
-			</div>
-		</section>
-
-		<!-- four -->
-		<section id="four">
-			<h2>📨 Contact</h2>
-			<ul class="contact">
-				<li class="icon solid fa-envelope"><a href="mailto:lukas.klein@epfl.ch">lukas.klein(at)epfl.ch
-					</a></li>
-				<li class="icon brands fa-linkedin"><a href="https://www.linkedin.com/in/lukasklein1/">LinkedIn</a></li>
-				<li class="fa-solid fa-hashtag"><a href="https://bsky.app/profile/lukaskln.bsky.social">BlueSky</a></li>
-				<li class="icon brands fa-github"><a href="https://github.com/lukaskln">GitHub</a></li>
-				<li class="icon brands fa-google"><a href="https://scholar.google.de/citations?user=sxpuZg4AAAAJ">Google
-						Scholar</a></li>
-			</ul>
-		</section>
 
 	</div>
 
@@ -234,7 +91,6 @@
 		<div class="inner">
 			<ul class="copyright">
 				<li>&copy; Lukas Klein</li>
-				<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 			</ul>
 		</div>
 	</footer>
@@ -246,6 +102,7 @@
 	<script src="assets/js/breakpoints.min.js"></script>
 	<script src="assets/js/util.js"></script>
 	<script src="assets/js/main.js"></script>
+	<script src="assets/js/custom.js"></script>
 
 </body>
 
