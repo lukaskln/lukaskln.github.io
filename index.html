@@ -1,109 +1,224 @@
-<!DOCTYPE HTML>
-<script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
-
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-	<title>Lukas Klein</title>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-	<link rel="stylesheet" href="/assets/css/main.css" />
-	<link rel="stylesheet" href="/assets/css/custom.css" />
-	<link rel="icon" type="image/vnd.microsoft.icon" href="images/favicon.ico">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Lukas Klein</title>
+  <link rel="icon" type="image/vnd.microsoft.icon" href="images/favicon.ico" />
+  <link rel="stylesheet" href="assets/css/fontawesome-all.min.css" />
+  <link rel="stylesheet" href="assets/css/academic.css" />
 </head>
+<body>
 
-<body class="is-preload">
+  <!-- Masthead -->
+  <header class="masthead">
+    <div class="masthead__inner">
+      <div class="masthead__title"><a href="index.html">Lukas Klein</a></div>
+      <nav>
+        <ul class="greedy-nav">
+          <li><a href="publications.html" class="nav-link">Publications</a></li>
+          <li><a href="teaching.html" class="nav-link">Teaching</a></li>
+          <li><a href="talks.html" class="nav-link">Talks</a></li>
+          <li><a href="./images/Curriculum Vitae Lukas Klein.pdf" class="nav-link">CV</a></li>
+        </ul>
+      </nav>
+      <button id="menu-toggle" aria-label="Menu">&#9776;</button>
+    </div>
+  </header>
 
-	<!-- Header -->
-	<header id="header">
-		<div class="inner">
-			<a class="image avatar"><img src="images/avatar.jpeg" /></a>
-			<h1 style="font-size:40px"><strong>Lukas</strong> Klein</h1> 
-			<h2 style="font-size:20px">lukas.klein[at]epfl.ch</h2> 
-			<ul class="icons">
-				<li><a href="https://bsky.app/profile/lukaskln.bsky.social" class="icon fa-solid fa-cloud"><span
-							class="label">BlueSky</span></a></li>
-				<li><a href="https://www.linkedin.com/in/lukasklein1/" class="icon brands fa-linkedin"><span
-							class="label">LinkedIn</span></a></li>
-				<li><a href="https://github.com/lukaskln" class="icon brands fa-github"><span
-							class="label">GitHub</span></a></li>
-				<li><a href="https://scholar.google.com/citations?user=sxpuZg4AAAAJ" class="icon fa-solid fa-graduation-cap"><span
-								class="label">Google Scholar</span></a></li>
-			</ul>
-		</div>
-	</header>
+  <!-- Mobile nav -->
+  <div id="mobile-nav-menu">
+    <a href="publications.html" class="nav-link">Publications</a>
+    <a href="teaching.html" class="nav-link">Teaching</a>
+    <a href="talks.html" class="nav-link">Talks</a>
+    <a href="./images/Curriculum Vitae Lukas Klein.pdf" class="nav-link">CV</a>
+  </div>
 
-	<!-- Main -->
-	<div id="main">
-		
-		<!-- Navigation -->
-		<nav id="nav">
-			<!-- Hamburger Menu Button (Hidden by default) -->
-			<button id="menu-toggle">
-				<i class="fas fa-bars"></i>
-			</button>
-			
-			<!-- Navigation Menu -->
-			<ul id="nav-menu">
-				<li><a href="index.html" class="nav-link">About</a></li>
-				<li><a href="publications.html" class="nav-link">Publications</a></li>
-				<li><a href="services.html" class="nav-link">Academic Services</a></li>
-			</ul>
-		</nav>
+  <!-- Page content -->
+  <div class="page__wrapper">
 
-		<!-- About Content -->
-		<section id="about">
-			<header class="major">
-				<h2>About me</h2>
-			</header>
-			<h4>
-				I am a PostDoc at <strong>EPFL</strong> and the <strong>University Hospital Zürich</strong>, working with <a href="https://people.epfl.ch/charlotte.bunne?lang=en">Charlotte Bunne</a> and <a href="https://www.usz.ch/en/team/andreas-wicki/">Andreas Wicki</a>. 
-			</h4>
-			<h4>
-				My interdisciplinary research advances personalized medicine by developing <strong>AI for spatial omics</strong> technologies that tackle diagnostic, therapeutic, and discovery tasks.
-			</h4>
-			<h4>
-				Previously, I completed my Ph.D. in Computer Science at <strong>ETH Zürich</strong> and the German Cancer Research Center (<strong>DKFZ</strong>), supervised by <a href="https://inf.ethz.ch/people/person-detail.buhmann.html">Joachim Buhmann</a> and <a href="https://pfjaeger.github.io">Paul Jäger</a>.
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <div class="author__avatar">
+        <img src="images/avatar.jpeg" alt="Lukas Klein" />
+      </div>
+      <div class="sidebar__text">
+        <div class="author__info">
+          <h2 class="author__name">Lukas Klein</h2>
+          <p class="author__bio">PostDoc · EPFL</p>
+        </div>
+        <div class="author__urls-wrapper">
+          <h3>Contact</h3>
+          <ul class="author__urls">
+            <li>
+              <a href="mailto:lukas.klein@epfl.ch">
+                <i class="fas fa-envelope"></i> lukas.klein[at]epfl.ch
+              </a>
+            </li>
+            <li>
+              <a href="https://scholar.google.com/citations?user=sxpuZg4AAAAJ">
+                <i class="fas fa-graduation-cap"></i> Google Scholar
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/lukasklein1/">
+                <i class="fab fa-linkedin"></i> LinkedIn
+              </a>
+            </li>
+            <li>
+              <a href="https://bsky.app/profile/lukaskln.bsky.social">
+                <i class="fas fa-cloud"></i> BlueSky
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/lukaskln">
+                <i class="fab fa-github"></i> GitHub
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </aside>
 
-			</h4>
-			
-			<hr style="margin: 3em 0; border: none; border-top: 2px solid #efefef;">
-			
-			<h2>🎓 Academic Education</h2>
-			<ul>
-				<li><strong>[PostDoc]</strong> Joint PostDoc in the <a href="https://aimm.epfl.ch">AIMM Group</a> at EPFL and the <a href="https://www.usz.ch/en/department/medical-oncology-and-hematology/">Department of Oncology</a> at the University Hospital Zürich</li>
-				<li><strong>[Ph.D.]</strong> Computer Science Ph.D. in the <a href="https://ise.ethz.ch">ISE Group</a> at ETH Zürich and the <a href="https://iml-dkfz.github.io">IML Group</a> at the DKFZ </li>
-				<li><strong>[Ph.D.]</strong> DKFZ Fellowship recipient and completed the Helmholtz International Graduate School for Cancer Research</li>
-				<li><strong>[Ph.D.]</strong> External member of the <a href="https://ivia.ch">IVIA Lab</a> at ETH Zürich</li>
-				<li>Master Thesis & Research Intern at ETH Zürich</li>
-				<li><strong>M.Sc. in Statistics</strong> at University of Geneva</li>
-				<li>Intern at <strong>Microsoft</strong></li>
-				<li><strong>B.Sc. in Economics</strong> at University of Mannheim</li>
-			</ul>
-			<a href="./images/Curriculum Vitae Lukas Klein.pdf" class="button small"><i
-					class="icon fa-solid fa-arrow-down"></i> Download full CV</a>
-		</section>
+    <!-- Main -->
+    <main class="main-content">
 
-	</div>
+      <div class="about-box">
+        <p>
+          I am a PostDoc at <strong>EPFL</strong> and the <strong>University Hospital Zürich</strong>, working with
+          <a href="https://people.epfl.ch/charlotte.bunne?lang=en">Charlotte Bunne</a> and
+          <a href="https://www.usz.ch/en/team/andreas-wicki/">Andreas Wicki</a>.
+        </p>
+        <p>
+          My interdisciplinary research advances personalized medicine by developing
+          <strong>AI for spatial omics</strong> technologies that tackle diagnostic, therapeutic, and discovery tasks.
+        </p>
+        <p>
+          Previously, I completed my Ph.D. in Computer Science at <strong>ETH Zürich</strong> and the German Cancer
+          Research Center (<strong>DKFZ</strong>), supervised by
+          <a href="https://inf.ethz.ch/people/person-detail.buhmann.html">Joachim Buhmann</a> and
+          <a href="https://pfjaeger.github.io">Paul Jäger</a>.
+        </p>
+      </div>
 
-	<!-- Footer -->
-	<footer id="footer">
-		<div class="inner">
-			<ul class="copyright">
-				<li>&copy; Lukas Klein</li>
-			</ul>
-		</div>
-	</footer>
+      <h2>Selected Work</h2>
+      <ul class="selected-work-list">
 
-	<!-- Scripts -->
-	<script src="assets/js/jquery.min.js"></script>
-	<script src="assets/js/jquery.poptrox.min.js"></script>
-	<script src="assets/js/browser.min.js"></script>
-	<script src="assets/js/breakpoints.min.js"></script>
-	<script src="assets/js/util.js"></script>
-	<script src="assets/js/main.js"></script>
-	<script src="assets/js/custom.js"></script>
+        <li class="selected-work-item">
+          <div class="selected-work-img">
+            <img src="images/paper/1.png" alt="Pancreas XAI" />
+          </div>
+          <div class="selected-work-body">
+            <div class="pub-title">
+              <a href="https://www.medrxiv.org/content/10.1101/2024.10.23.24315937v1">Explainable AI-based analysis of human pancreas sections identifies traits of type 2 diabetes</a>
+            </div>
+            <div class="pub-authors"><strong>Lukas Klein*</strong>, Sebastian Ziegler*, Yanni Morgenroth*, Eyke Schoeniger, [...], Michele Solimena, Felicia Gerst, Robert Wagner, Fabian Isensee, Klaus Maier-Hein, Paul Jäger</div>
+            <div class="pub-venue"><em>Nature Communications</em> · 
+              Also presented at the NeurIPS 2024 IAI Workshop · 
+              Covered by <a href="https://www.genengnews.com/topics/artificial-intelligence/ai-maps-subtle-human-pancreatic-tissue-changes-linked-to-type-2-diabetes/">GEN</a> · 
+              Download the <a href="https://diadem.dzd-ev.org"><em>DIADEM Dataset</em></a></div>
+          </div>
+        </li>
 
+        <li class="selected-work-item">
+          <div class="selected-work-img">
+            <img src="images/paper/2.png" alt="Perovskite Solar Cell" />
+          </div>
+          <div class="selected-work-body">
+            <div class="pub-title">
+              <a href="https://onlinelibrary.wiley.com/doi/full/10.1002/adma.202307160">Discovering Process Dynamic for Scalable Perovskite Solar Cell Manufacturing with Explainable AI</a>
+            </div>
+            <div class="pub-authors"><strong>Lukas Klein*</strong>, Sebastian Ziegler*, Felix Laufer*, Charlotte Debus, Markus Götz, Klaus Maier-Hein, Ulrich W. Paetzold, Fabian Isensee, Paul Jäger</div>
+            <div class="pub-venue"><em>Advanced Materials</em> · Also presented at the NeurIPS 2023 XAI in Action Workshop (Top Paper Award) · Covered by <a href="https://www.independent.co.uk/tech/solar-panel-perovskite-ai-artificial-intelligence-b2453085.html">The Independent</a></div>
+          </div>
+        </li>
+
+        <li class="selected-work-item">
+          <div class="selected-work-img">
+            <img src="images/paper/3.png" alt="Navigating XAI" />
+          </div>
+          <div class="selected-work-body">
+            <div class="pub-title">
+              <a href="https://arxiv.org/abs/2409.16756">Navigating the Maze of Explainable AI: A Systematic Approach to Evaluating Methods and Metrics</a>
+            </div>
+            <div class="pub-authors"><strong>Lukas Klein</strong>, Carsten Lüth, Udo Schlegel, Till Bungert, Mennatallah El-Assady, Paul Jäger</div>
+            <div class="pub-venue">Neural Information Processing Systems (<em>NeurIPS</em>) 2024</div>
+          </div>
+        </li>
+
+      </ul>
+
+      <h2>Education &amp; Positions</h2>
+      <ul class="position-list">
+
+        <li class="position-item">
+          <div class="position-label">PostDoc</div>
+          <div class="position-body">
+            <div class="position-title">EPFL</div>
+            <div class="position-title-sub">with University Hospital Zürich</div>
+            <div class="position-detail"><a href="https://aimm.epfl.ch">AIMM Group</a> · <a href="https://www.usz.ch/en/department/medical-oncology-and-hematology/">Department of Oncology</a></div>
+          </div>
+        </li>
+
+        <li class="position-item">
+          <div class="position-label">Ph.D.</div>
+          <div class="position-body">
+            <div class="position-title">ETH Zürich</div>
+            <div class="position-title-sub">with German Cancer Research Center (DKFZ)</div>
+            <div class="position-detail">Computer Science · DKFZ Fellowship Award</div>
+            <div class="position-detail"><a href="https://ise.ethz.ch">ISE Group</a> · <a href="https://iml-dkfz.github.io">IML Group</a> · <a href="https://ivia.ch">IVIA Lab</a></div>
+          </div>
+        </li>
+
+        <li class="position-item">
+          <div class="position-label">M.Sc.</div>
+          <div class="position-body">
+            <div class="position-title">University of Geneva</div>
+            <div class="position-detail">Statistics · Master Thesis &amp; Research Intern at ETH Zürich</div>
+          </div>
+        </li>
+
+        <li class="position-item">
+          <div class="position-label">Intern</div>
+          <div class="position-body">
+            <div class="position-title">Microsoft</div>
+          </div>
+        </li>
+
+        <li class="position-item">
+          <div class="position-label">B.Sc.</div>
+          <div class="position-body">
+            <div class="position-title">University of Mannheim</div>
+            <div class="position-detail">Economics</div>
+          </div>
+        </li>
+
+      </ul>
+
+
+    </main>
+  </div>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <p>&copy; Lukas Klein</p>
+  </footer>
+
+  <script>
+    // Active nav link
+    (function () {
+      var links = document.querySelectorAll('.nav-link');
+      var path = window.location.pathname.split('/').pop() || 'index.html';
+      links.forEach(function (a) {
+        if (a.getAttribute('href') === path) a.classList.add('active');
+      });
+    })();
+
+    // Mobile menu toggle
+    document.getElementById('menu-toggle').addEventListener('click', function () {
+      var m = document.getElementById('mobile-nav-menu');
+      m.classList.toggle('open');
+    });
+  </script>
 </body>
-
 </html>

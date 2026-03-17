@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Lukas Klein — Teaching</title>
+  <link rel="icon" type="image/vnd.microsoft.icon" href="images/favicon.ico" />
+  <link rel="stylesheet" href="assets/css/fontawesome-all.min.css" />
+  <link rel="stylesheet" href="assets/css/academic.css" />
+</head>
+<body>
+
+  <header class="masthead">
+    <div class="masthead__inner">
+      <div class="masthead__title"><a href="index.html">Lukas Klein</a></div>
+      <nav>
+        <ul class="greedy-nav">
+          <li><a href="publications.html" class="nav-link">Publications</a></li>
+          <li><a href="teaching.html" class="nav-link">Teaching</a></li>
+          <li><a href="talks.html" class="nav-link">Talks</a></li>
+          <li><a href="./images/Curriculum Vitae Lukas Klein.pdf" class="nav-link">CV</a></li>
+        </ul>
+      </nav>
+      <button id="menu-toggle" aria-label="Menu">&#9776;</button>
+    </div>
+  </header>
+
+  <div id="mobile-nav-menu">
+    <a href="publications.html" class="nav-link">Publications</a>
+    <a href="teaching.html" class="nav-link">Teaching</a>
+    <a href="talks.html" class="nav-link">Talks</a>
+    <a href="./images/Curriculum Vitae Lukas Klein.pdf" class="nav-link">CV</a>
+  </div>
+
+  <div class="page__wrapper">
+
+    <aside class="sidebar">
+      <div class="author__avatar">
+        <img src="images/avatar.jpeg" alt="Lukas Klein" />
+      </div>
+      <div class="sidebar__text">
+        <div class="author__info">
+          <h2 class="author__name">Lukas Klein</h2>
+          <p class="author__bio">PostDoc · EPFL</p>
+        </div>
+        <div class="author__urls-wrapper">
+          <h3>Contact</h3>
+          <ul class="author__urls">
+            <li><a href="mailto:lukas.klein@epfl.ch"><i class="fas fa-envelope"></i> lukas.klein[at]epfl.ch</a></li>
+            <li><a href="https://scholar.google.com/citations?user=sxpuZg4AAAAJ"><i class="fas fa-graduation-cap"></i> Google Scholar</a></li>
+            <li><a href="https://www.linkedin.com/in/lukasklein1/"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+            <li><a href="https://bsky.app/profile/lukaskln.bsky.social"><i class="fas fa-cloud"></i> BlueSky</a></li>
+            <li><a href="https://github.com/lukaskln"><i class="fab fa-github"></i> GitHub</a></li>
+          </ul>
+        </div>
+      </div>
+    </aside>
+
+    <main class="main-content">
+
+      <h2>Teaching</h2>
+      <ul class="teaching-list">
+        <li class="teaching-item">
+          <div class="teaching-year">2025</div>
+          <div class="teaching-body">
+            <div class="teaching-name">Foundation Models and Generative AI</div>
+            <div class="teaching-meta"><em>Teaching Assistant · EPFL</em></div>
+          </div>
+        </li>
+        <li class="teaching-item">
+          <div class="teaching-year">2025</div>
+          <div class="teaching-body">
+            <div class="teaching-name">Machine Learning for Science</div>
+            <div class="teaching-meta"><em>Teaching Assistant · EPFL</em></div>
+          </div>
+        </li>
+        <li class="teaching-item">
+          <div class="teaching-year">2023–2024</div>
+          <div class="teaching-body">
+            <div class="teaching-name">Advanced Topics in Machine Learning</div>
+            <div class="teaching-meta"><em>Teaching Assistant · ETH Zürich</em></div>
+          </div>
+        </li>
+        <li class="teaching-item">
+          <div class="teaching-year">2022–2024</div>
+          <div class="teaching-body">
+            <div class="teaching-name">Biomedical Imaging and Radiation Oncology</div>
+            <div class="teaching-meta"><em>Lecturer · University of Heidelberg</em></div>
+          </div>
+        </li>
+      </ul>
+
+    </main>
+  </div>
+
+  <footer class="site-footer">
+    <p>&copy; Lukas Klein</p>
+  </footer>
+
+  <script>
+    (function () {
+      var links = document.querySelectorAll('.nav-link');
+      var path = window.location.pathname.split('/').pop() || 'index.html';
+      links.forEach(function (a) {
+        if (a.getAttribute('href') === path) a.classList.add('active');
+      });
+    })();
+    document.getElementById('menu-toggle').addEventListener('click', function () {
+      document.getElementById('mobile-nav-menu').classList.toggle('open');
+    });
+  </script>
+</body>
+</html>
